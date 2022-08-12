@@ -286,6 +286,7 @@ html, body{
 
 .faq{
     border-top: 1px solid var(--Grayish-Blue);
+    cursor: pointer;
 }
 
 .faq-question{
@@ -371,7 +372,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 30px 100px;
     background-color: var(--Very-Dark-Blue);
 }
 
@@ -398,6 +399,8 @@ html, body{
 .seventhsocial{
     display: flex;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
  /*1200, 992,768,576,480,375 */
 
@@ -611,6 +614,7 @@ html, body{
         place-items: center;
         place-content: center;
         padding: 20px 0px;
+        text-align: center;
 
     }
     .seventhimglinks{
